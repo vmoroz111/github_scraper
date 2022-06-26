@@ -1,9 +1,9 @@
+import json
+import pytest
+
 from github_scraper_test.scraper import GitHubScraper
 
 from requests.exceptions import ProxyError
-
-import json
-import pytest
 
 
 def base_success_case(input_file, output_file):

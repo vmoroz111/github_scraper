@@ -1,9 +1,10 @@
-from lxml import html
-from random import randint
 import json
 import logging
 import requests
 import urllib.parse
+
+from lxml import html
+from random import randint
 
 
 logging.basicConfig(level=logging.INFO)
