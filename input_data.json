@@ -1,10 +1,12 @@
 {
   "keywords": [
-    "пітон"
+    "python",
+    "django-rest-framework",
+    "jwt"
   ],
   "proxies": [
     "136.226.32.241:443",
     "51.142.113.220:8080"
   ],
-  "type": "Issues"
+  "type": "Repositories"
 }
