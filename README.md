@@ -5,6 +5,7 @@ Actions to run scraper:
 4. To run tests: `sh run_tests.sh`
 
 Coverage:
+```
 Name                           Stmts   Miss  Cover
 --------------------------------------------------
 __init__.py                        0      0   100%
@@ -13,6 +14,7 @@ tests/__init__.py                  0      0   100%
 tests/test_github_scraper.py      53      0   100%
 --------------------------------------------------
 TOTAL                            132      6    95%
+```
 
 
 !!! Please take into account that free proxies are very unstable and it can cause failed tests and scraper. !!!
