@@ -1,15 +1,17 @@
 from lxml import html
 from random import randint
 import json
+import logging
 import requests
 import urllib.parse
 
-import logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 
 class GitHubScraper():
+
 
 	def __init__(self, input_file='input_data.json', output_file='output_data.json'):
 		# base object params
@@ -46,6 +48,7 @@ class GitHubScraper():
 			logger.error('Reading from an input file has failed.')
 			raise e
 
+
 	def write_output_data(self, output_data):
 		"""Write output data to file."""
 		try:
@@ -63,6 +66,7 @@ class GitHubScraper():
 		except Exception as e:
 			logger.error('No proxies!')
 			raise e
+
 
 	def send_request(self, url, params=None):
 		"""
