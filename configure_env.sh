@@ -1,0 +1,1 @@
+pip3 install virtualenv && virtualenv -p python venv && venv/bin/pip3 install -r requirements.txt
